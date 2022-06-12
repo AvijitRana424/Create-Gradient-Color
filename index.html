@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   	<title>Color Mixing</title>
+   	 <meta lang="en-us">
+   	 <meta charset="utf-8">
+   	 <meta name="viewport" content="width=device-width, initial-scale =1.0">
+   	 <link rel="stylesheet" href="CSS/jquery-ui.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="JQUERY/jquery-ui.js"></script>
+     <link rel="stylesheet" href="CSS/style.css">
+     <script src="JQUERY/effect.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script>
+     	
+        window.jQuery || document.write("<script src='JQUERY/jquery.js'><\/script>");
+     </script>
+     <link rel="icon" href="ico.jpg" sizes="16x16">
+    
+     
+   </head>
+   <body>
+       <div id="color-mixed">
+        <h1 align="center" style="font-family: sans-serif;font-weight: bold;margin-top:-6px;">Color Mixer</h1>
+        <hr style="border: 2px groove cyan;margin-top:-9px;">
+       <!--  start color red label coding -->
+        <label for="red" style="color:red;font-family: sans-serif;font-weight: bold">
+          Red <br>
+          <input id="red-input" maxlength="3" style="padding: 10px;width: 80px;border: 1px solid #ccc;box-shadow: 0px 0px 3px #ddd;margin-bottom: 8px;color:red" name="color">
+        </label>
+        <div id="red"></div>
+       <!--  end color red label coding -->
+
+
+      <!--  start green color label coding -->
+
+        <label for="green" style="color:green;font-family: sans-serif;font-weight: bold">
+          Green <br>
+          <input id="green-input" maxlength="3" style="padding: 10px;width: 80px;border: 1px solid #ccc;box-shadow: 0px 0px 3px #ddd;margin-bottom: 8px;color:green" name="color">
+        </label>
+        <div id="green"></div>
+
+        <!-- end green color label coding -->
+
+          <!--  start blue color label coding -->
+        <label for="blue" style="color:blue;font-family: sans-serif;font-weight: bold">
+          Blue <br>
+          <input id="blue-input" maxlength="3" style="padding: 10px;width: 80px;border: 1px solid #ccc;box-shadow: 0px 0px 3px #ddd;margin-bottom: 8px;color:blue" name="color">
+        </label>
+        <div id="blue"></div>
+
+        <!-- end blue color label coding -->
+        <div id="color-result"></div>
+        <div id="hex-result">
+              <i class="fa fa-copy" style="font-size:20px; color:red;float: right;margin-right:10px;cursor: pointer" title="copy text!" id="cop" ></i>
+              <p id="result" style="padding: 0;margin:0;"></p>
+        </div>
+
+       </div>
+        
+
+<audio src="b1.mpeg" controls="controls" autoplay="autoplay" id="myAudio" style="display: none"></audio>
+
+
+      
+   </body>
+
+</html>
